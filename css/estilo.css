@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(59, 58, 58);
+
+}
+.itens{
+   
+    display: flex;
+    gap: 3.2rem;
+    list-style: none;
+    margin: 3.2rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+   margin-left: 3.2rem;
+   list-style: none;
+}
+nav ul a:hover{
+    color: #02233c;
+    transition: all 300ms;
+    text-decoration: none;
+   
+    
+}
+a{
+    text-decoration: none;
+    padding: 2rem;
+}
+li{
+    background-color: white;
+    font-size: 2.0rem;
+    border-radius: 5rem;
+   
+}
+
+
+.primeiro {
+    margin: 6.4rem 0 3.2rem auto ;
+   color: white;
+    max-width: 50.7rem;
+   font-size: 3.2rem; 
+   text-align: left; 
+   padding-right: 10rem;
+   
+  
+}
+h2{
+    font-family: 'Merriweather', serif;
+    margin: 3.2rem;
+    width: 60rem;
+}
+p{
+    
+    color: #BBB7B7;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 3.2rem;
+
+
+}
+
+.logo{
+   
+}
+.img{
+    margin-left: 10rem;
+}
+.segundo{
+    margin:3.2rem 0 3.2rem auto;
+    color:white;
+    max-width: 50.7rem;
+    font-size: 3.2rem;
+    text-align: left;
+    padding-right: 10rem;
+    
+}
+.video{
+    margin: 0 0 5rem 10rem;
+}
+footer{
+   background-color: #BBB7B7;
+ 
+}
+div{
+    display: flex;
+    height: 5rem;
+    justify-content:space-around;
+}
+h4{
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-family: 'Merriweather', serif;
+    color: #201f1f;
+
+
+}
+
